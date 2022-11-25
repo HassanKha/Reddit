@@ -27,11 +27,11 @@ const {data: session} = useSession();
             <input className="flex-1 bg-transparent outline-none" type="text" placeholder='Search Reddit'/>
             <button type='submit' hidden/>
         </form>
-<div className='flex mx-5 hidden text-gray-500 space-x-2 items-gray-500 lg:inline-flex'>
+<div className='flex mx-5  text-gray-500 space-x-2 items-gray-500 lg:inline-flex'>
 <SparklesIcon className='icon'/>
 <GlobeAltIcon className='icon'/>
 <VideoCameraIcon className='icon'/>
-<hr h-10 border border-gray-100/>
+<hr h-10  border-gray-100/>
 <ChatBubbleLeftIcon className='icon'/>
 <BellIcon className='icon'/>
 <PlusIcon className='icon'/>
