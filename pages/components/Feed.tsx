@@ -1,12 +1,12 @@
 import React from 'react'
 import {useQuery} from '@apollo/client';
-import { GetAllPosts,GetPostListbytopic } from './../../graphql/queries';
+import { GetAllPosts,GetPostListbytopic } from '../../graphql/queries';
 import Post from './Post';
 
 interface Props {
   topic?: string
 }
-
+type Post = any
 function Feed({topic} : Props) {
 
   //console.log("h",topic);
